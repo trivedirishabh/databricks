@@ -13,7 +13,7 @@
 
 # COMMAND ----------
 
-
+# MAGIC
 # MAGIC %md
 # MAGIC **In this lesson:** You'll learn different ways to get data *into* tables.
 

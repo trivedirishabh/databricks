@@ -13,7 +13,7 @@
 
 # COMMAND ----------
 
-
+# MAGIC
 # MAGIC %md
 # MAGIC **Where we left off:** In Lesson 1, we created an `employees` Delta table from a CSV file. It has 4 rows from the original data in the file.
 

@@ -13,7 +13,7 @@
 
 # COMMAND ----------
 
-
+# MAGIC
 # MAGIC %md
 # MAGIC ### Instructions
 # MAGIC
@@ -35,7 +35,7 @@
 # MAGIC USE SCHEMA get_started_de;
 # MAGIC
 # MAGIC -- TODO: Preview employees2.csv with format options (format, header, inferSchema)
-# MAGIC <FILL_IN>
+# MAGIC SELECT * FROM read_files('/Volumes/dbacademy/get_started_de/myfiles/employees2.csv');
 
 # COMMAND ----------
 
@@ -63,7 +63,8 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Create new_hires_ctas from employees2.csv with format options and column selection
-# MAGIC <FILL_IN>
+# MAGIC CREATE TABLE IF NOT EXISTS new_hires_ctas
+# MAGIC SELECT ID, FirstName, Country, Role FROM read_files('/Volumes/dbacademy/get_started_de/myfiles/employees2.csv', format => 'csv', header => true, inferSchema => true);
 
 # COMMAND ----------
 
@@ -93,7 +94,7 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Query new_hires_ctas
-# MAGIC <FILL_IN>
+# MAGIC SELECT * FROM new_hires_ctas;
 
 # COMMAND ----------
 

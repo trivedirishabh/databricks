@@ -41,7 +41,7 @@
 # MAGIC USE SCHEMA get_started_de;
 # MAGIC
 # MAGIC -- TODO: List the files in the myfiles volume
-# MAGIC LIST '<FILL_IN>';
+# MAGIC LIST '/Volumes/dbacademy/get_started_de/myfiles/';
 
 # COMMAND ----------
 
@@ -64,7 +64,7 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Preview the contents of employees2.csv
-# MAGIC SELECT * FROM read_files('<FILL_IN>');
+# MAGIC SELECT * FROM read_files('/Volumes/dbacademy/get_started_de/myfiles/employees2.csv');
 
 # COMMAND ----------
 
@@ -92,7 +92,8 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Create a new Delta table called new_employees from employees2.csv
-# MAGIC <FILL_IN>
+# MAGIC CREATE TABLE IF NOT EXISTS new_employee
+# MAGIC SELECT * FROM read_files('/Volumes/dbacademy/get_started_de/myfiles/employees2.csv');
 
 # COMMAND ----------
 
@@ -117,7 +118,7 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Query the new_employees table
-# MAGIC <FILL_IN>
+# MAGIC SELECT * FROM new_employee;
 
 # COMMAND ----------
 
