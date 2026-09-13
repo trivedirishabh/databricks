@@ -13,7 +13,7 @@
 
 # COMMAND ----------
 
-
+# MAGIC
 # MAGIC %md
 # MAGIC **Where we left off:** In Lessons 1 and 2, we created and modified the `employees` table with INSERT, UPDATE, and DELETE. Each operation created a new version. Let's start by looking at the current state of the table.
 

@@ -13,7 +13,7 @@
 
 # COMMAND ----------
 
-
+# MAGIC
 # MAGIC %md
 # MAGIC **Where we left off:** In Lesson 1's Practice, you created a `new_employees` table from `employees2.csv`. It should have 2 rows (Maria and Aiden). Let's confirm.
 # MAGIC
@@ -25,7 +25,7 @@
 # MAGIC USE CATALOG dbacademy;
 # MAGIC USE SCHEMA get_started_de;
 # MAGIC
-# MAGIC SELECT * FROM new_employees;
+# MAGIC SELECT * FROM new_employee;
 
 # COMMAND ----------
 
@@ -42,7 +42,8 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Insert Priya into the new_employees table
-# MAGIC <FILL_IN>
+# MAGIC INSERT INTO new_employee (ID, FirstName, Country, Role) VALUES
+# MAGIC (7, "Priya", "India", "Data Engineer");
 
 # COMMAND ----------
 
@@ -62,7 +63,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT * FROM new_employees;
+# MAGIC SELECT * FROM new_employee;
 
 # COMMAND ----------
 
@@ -75,7 +76,7 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Update Aiden's role to Senior Data Analyst
-# MAGIC <FILL_IN>
+# MAGIC UPDATE new_employee SET Role = "Senior Data Analyst" WHERE FirstName = "Aiden";
 
 # COMMAND ----------
 
@@ -97,7 +98,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT * FROM new_employees WHERE FirstName = 'Aiden';
+# MAGIC SELECT * FROM new_employee WHERE FirstName = 'Aiden';
 
 # COMMAND ----------
 
@@ -110,7 +111,7 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Delete Priya from the new_employees table
-# MAGIC <FILL_IN>
+# MAGIC DELETE FROM new_employee WHERE FirstName = "Priya";
 
 # COMMAND ----------
 
@@ -131,7 +132,7 @@
 # COMMAND ----------
 
 # MAGIC %sql
-# MAGIC SELECT * FROM new_employees;
+# MAGIC SELECT * FROM new_employee;
 
 # COMMAND ----------
 
@@ -144,7 +145,7 @@
 
 # MAGIC %sql
 # MAGIC -- TODO: Show the version history of new_employees
-# MAGIC <FILL_IN>
+# MAGIC DESCRIBE HISTORY new_employee;
 
 # COMMAND ----------
 
