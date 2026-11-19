@@ -1,0 +1,51 @@
+sku,model,brand,category,list_price,is_active
+SKU-0001,Galaxy S24,Samsung,Mobile Phones,969.28,True
+SKU-0002,iPhone 15,Apple,Mobile Phones,998.8,True
+SKU-0003,Pixel 8,Google,Mobile Phones,695.08,True
+SKU-0004,OnePlus 12,OnePlus,Mobile Phones,711.5,True
+SKU-0005,Redmi Note 13,Xiaomi,Mobile Phones,282.89,True
+SKU-0006,MacBook Pro M3,Apple,Laptops,2432.26,True
+SKU-0007,Dell XPS 15,Dell,Laptops,1801.45,True
+SKU-0008,HP Spectre x360,HP,Laptops,1646.5,True
+SKU-0009,Lenovo ThinkPad X1,Lenovo,Laptops,1731.63,True
+SKU-0010,ASUS ZenBook 14,ASUS,Laptops,1286.6,True
+SKU-0011,iPad Pro 12.9,Apple,Tablets & Accessories,1082.67,True
+SKU-0012,Samsung Tab S9,Samsung,Tablets & Accessories,748.43,True
+SKU-0013,Kindle Paperwhite,Amazon,Tablets & Accessories,147.89,True
+SKU-0014,Bose QC45,Bose,Audio,309.18,True
+SKU-0015,Sony WH-1000XM5,Sony,Audio,325.86,True
+SKU-0016,Nike Air Max 270,Nike,Footwear,124.0,True
+SKU-0017,Adidas Ultraboost 22,Adidas,Footwear,167.58,True
+SKU-0018,Levi's 501 Jeans,Levi's,Apparel,67.23,True
+SKU-0019,Zara Trench Coat,Zara,Apparel,116.28,True
+SKU-0020,H&M Hoodie,H&M,Apparel,47.98,True
+SKU-0021,Instant Pot Duo,Instant Pot,Kitchen Appliances,90.07,True
+SKU-0022,Philips Air Fryer,Philips,Kitchen Appliances,86.44,True
+SKU-0023,Dyson V15,Dyson,Home Appliances,596.95,True
+SKU-0024,Roomba j7+,iRobot,Home Appliances,448.3,True
+SKU-0025,KitchenAid Mixer,KitchenAid,Kitchen Appliances,400.74,True
+SKU-0026,The Alchemist,HarperCollins,Books,18.87,True
+SKU-0027,Atomic Habits,Penguin,Books,20.29,True
+SKU-0028,Harry Potter Box Set,Bloomsbury,Books,81.78,True
+SKU-0029,Dune,Ace Books,Books,21.73,True
+SKU-0030,Sapiens,Harper Perennial,Books,25.53,True
+SKU-0031,LEGO Technic,LEGO,Toys & Games,43.7,True
+SKU-0032,Monopoly Classic,Hasbro,Toys & Games,28.98,True
+SKU-0033,PS5 Controller,Sony,Gaming Accessories,70.68,True
+SKU-0034,Xbox Series Controller,Microsoft,Gaming Accessories,63.92,True
+SKU-0035,Nintendo Switch Joy-Con,Nintendo,Gaming Accessories,73.37,True
+SKU-0036,Whey Protein 5lb,Optimum Nutrition,Health & Fitness,57.93,True
+SKU-0037,Creatine Monohydrate,MuscleTech,Health & Fitness,24.06,True
+SKU-0038,Yoga Mat,Liforme,Health & Fitness,32.01,True
+SKU-0039,Resistance Bands Set,TheraBand,Health & Fitness,28.14,True
+SKU-0040,Foam Roller,TriggerPoint,Health & Fitness,20.79,True
+SKU-0041,Face Moisturizer SPF30,Neutrogena,Beauty & Personal Care,38.99,True
+SKU-0042,Vitamin C Serum,The Ordinary,Beauty & Personal Care,34.64,True
+SKU-0043,Hair Dryer Pro,Dyson,Beauty & Personal Care,52.96,True
+SKU-0044,Electric Toothbrush,Oral-B,Beauty & Personal Care,76.43,True
+SKU-0045,Sunscreen SPF50,La Roche-Posay,Beauty & Personal Care,19.49,True
+SKU-0046,Dog Food Premium 10kg,Royal Canin,Pet Supplies,86.11,True
+SKU-0047,Cat Litter 20L,Catsan,Pet Supplies,46.74,True
+SKU-0048,Bird Cage Deluxe,Prevue,Pet Supplies,113.86,True
+SKU-0049,Fish Tank 20G,Aqueon,Pet Supplies,74.83,True
+SKU-0050,Pet Carrier Bag,Sherpa,Pet Supplies,53.45,True
